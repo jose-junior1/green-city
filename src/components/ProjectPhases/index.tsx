@@ -23,7 +23,7 @@ const ProjectPhases = () => {
                 <PhaseCard
                     title='Fase 3 - Produto final'
                     description='Entrega consolidada com mockup visual, variações de texto refinadas e justificativa estratégica. Representa o produto final.'
-                    linkDrive='https://drive.google.com/drive/folders/13Oitd-3JRuzxIng86qMYmDL3oT5AglIv?usp=drive_link'
+                    linkDrive='https://drive.google.com/file/d/1riKiG2QuDS48iUMxU1ygwjx07YsvYL66/view?usp=drive_link'
                     text='Baixar domumentação'
                 />
             </S.CardContainer>
