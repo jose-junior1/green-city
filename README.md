@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# 🌳 GreenCity - Projeto de Conscientização Ambiental
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Bem-vindo ao repositório GreenCity! Este projeto tem como objetivo principal conscientizar sobre a importância da sustentabilidade, ações ambientais e o impacto positivo que podemos gerar em nossas cidades.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tecnologias Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este projeto foi construído com as seguintes tecnologias e bibliotecas:
 
-### `npm test`
+* **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+* **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+* **Styled-Components**: Para escrever CSS em JavaScript, permitindo estilos dinâmicos e componentizados.
+* **React-Scroll**: Para navegação suave entre as seções da página.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Design Responsivo Completo**: O layout se adapta perfeitamente a diferentes tamanhos de tela (Desktop, Tablet, Mobile), garantindo uma excelente experiência de usuário em qualquer dispositivo.
+* **Navegação Suave**: Utilização de `react-scroll` para uma transição elegante entre as seções da página.
+* **Menu Hamburger Inteligente**: Menu otimizado para dispositivos móveis e tablets, com transição suave, ícone interativo e comportamento de fechamento ao clicar nos links.
+* **Carrossel de Imagens Dinâmicas**: Primeira seção com carrossel para apresentar as imagens da criação do projeto com prints de ideias tiradadas do ChatGPT.
+* **Seções Temáticas Detalhadas**:
+    * **Sobre**: Informações gerais sobre o projeto GreenCity e sua missão.
+    * **Causa**: Detalhes aprofundados sobre a problemática ambiental abordada e seus impactos.
+    * **Conclusão**: Reflexões finais, chamadas claras para ação e perspectivas futuras.
+    * **Fases**: Apresentação das etapas ou iniciativas do projeto, desde a ideia até a implementação.
+    * **Créditos**: Reconhecimento detalhado aos colaboradores, designers e fontes de conteúdo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Como Rodar o Projeto Localmente
 
-### `npm run eject`
+Siga os passos abaixo para ter o projeto rodando em sua máquina:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/jose-junior1/green-city](https://github.com/jose-junior1/green-city)
+    cd green-city
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou yarn install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou yarn dev
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4.  **Acesse o projeto:**
+    Abra seu navegador e acesse `http://localhost:5173` (a porta pode variar, verifique a saída do seu terminal).
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contribuições
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são sempre muito bem-vindas! Se você tiver ideias para melhorias, novas funcionalidades ou encontrar algum bug, sinta-se à vontade para:
+
+1.  Abrir uma [Issue](https://github.com/SEU_USUARIO/green-city/issues) detalhando sua sugestão ou problema.
+2.  Criar um [Pull Request](https://github.com/SEU_USUARIO/green-city/pulls) com suas modificações.
+
+---
+
+## ✉️ Contato
+
+Se tiver alguma dúvida ou quiser entrar em contato, você pode me encontrar em:
+
+* **José Junior Jesus da Silva**
+* **Email**: jose.j.j.silva634@gmail.com
+* **LinkedIn**: [https://www.linkedin.com/in/josejunior-dev](https://www.linkedin.com/in/josejunior-dev/)
+* **GitHub**: [https://github.com/jose-junior1](https://github.com/jose-junior1)
+
+---
