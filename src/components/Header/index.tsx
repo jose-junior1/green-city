@@ -26,6 +26,11 @@ const Header = () => {
         }
     }
 
+    const closeMenu = () => {
+        setMenuOpen(false)
+        setShowX(false)
+    }
+
     return (
         <>
             <S.BotaoHamburguer
@@ -47,7 +52,7 @@ const Header = () => {
                                     to='about'
                                     smooth={true}
                                     duration={500}
-                                    onClick={() => setMenuOpen(false)}
+                                    onClick={closeMenu}
                                 >
                                     Sobre
                                 </S.Links>
@@ -57,7 +62,7 @@ const Header = () => {
                                     to='cause'
                                     smooth={true}
                                     duration={500}
-                                    onClick={() => setMenuOpen(false)}
+                                    onClick={closeMenu}
                                 >
                                     Causa
                                 </S.Links>
@@ -67,7 +72,7 @@ const Header = () => {
                                     to='conclusion'
                                     smooth={true}
                                     duration={500}
-                                    onClick={() => setMenuOpen(false)}
+                                    onClick={closeMenu}
                                 >
                                     Conclusão
                                 </S.Links>
@@ -77,7 +82,7 @@ const Header = () => {
                                     to='phases'
                                     smooth={true}
                                     duration={500}
-                                    onClick={() => setMenuOpen(false)}
+                                    onClick={closeMenu}
                                 >
                                     Fases
                                 </S.Links>
@@ -87,7 +92,7 @@ const Header = () => {
                                     to='credits'
                                     smooth={true}
                                     duration={500}
-                                    onClick={() => setMenuOpen(false)}
+                                    onClick={closeMenu}
                                 >
                                     Créditos
                                 </S.Links>
