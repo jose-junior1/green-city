@@ -1,7 +1,7 @@
 import * as S from '../About/styles'
 import { ImageContainer } from './styles'
 
-import greePeople from '../../assets/images/conclusion-greencity.png'
+import greenPeople from '../../assets/images/conclusion-greencity.png'
 
 const Conclusion = () => (
     <S.Container id="conclusion" $dark={true}>
@@ -12,11 +12,11 @@ const Conclusion = () => (
             </S.Paragraph>
             <br />
             <S.Paragraph>
-                A IA não apenas acelerou o processo criativo, permitindo a exploração rápida de múltiplas possibilidades de comunicação e design, mas também potencializou a qualidade e a diversidade do material desenvolvido. Essa colaboração entre a criatividade humana e a capacidade computacional da IA resultou em um projeto mais robusto, visualmente atraente e strategicamente alinhado com seus objetivos. O uso da IA se mostrou uma ferramenta indispensável para otimizar o fluxo de trabalho e alcançar um resultado final de alto nível.
+                A IA não apenas acelerou o processo criativo, permitindo a exploração rápida de múltiplas possibilidades de comunicação e design, mas também potencializou a qualidade e a diversidade do material desenvolvido. Essa colaboração entre a criatividade humana e a capacidade computacional da IA resultou em um projeto mais robusto e visualmente atraente.
             </S.Paragraph>
         </S.Content>
         <ImageContainer>
-            <img src={greePeople} alt="Voluntários plantando árvores" />
+            <img src={greenPeople} alt="Voluntários plantando árvores" />
         </ImageContainer>
         
     </S.Container>

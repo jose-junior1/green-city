@@ -6,7 +6,7 @@ const Credits = () => (
         <S.Content>
             <S.Title>Créditos</S.Title>
             <S.Paragraph>
-                Este projeto foi desenvolvido por José Junior, com todo o design, conteúdo textual e imagens gerados 100% por Inteligência Artificial, utilizando ferramentas como ChatGPT, DALL-E 3 (modelo de inteligência artificial generativa da OpenAI que consegue criar imagens) e Gemini.
+                Este projeto foi desenvolvido por <strong>José Junior</strong>, com todo o design, conteúdo textual e imagens gerados 100% por Inteligência Artificial, utilizando ferramentas como ChatGPT, DALL-E 3 (modelo de inteligência artificial generativa da OpenAI que consegue criar imagens) e Gemini.
             </S.Paragraph>
             <S.Title
                 fontSize='small'
